@@ -1,0 +1,138 @@
+<html><head><base href="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One">
+    <link rel="stylesheet" href="styles.css">
+	<style>
+.line {
+	width:100%;
+	height:5px;
+	background-color: #7d97ad;
+	border: 0px;
+	
+}
+
+.name {
+	color: #000000;
+    font-weight: 250;
+	display: block;
+	float: right;
+}
+
+.mypic {
+	float: right;
+	max-width: 100%;
+    height: auto;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	margin-left: 7px;
+    margin-right: 7px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.placeholder {
+	border-radius: 8px;
+	opacity: 0.5;
+	width: 450px;
+    height: 350px;
+}
+
+#leftfeature {
+	float: left;
+	width: auto;
+	color: #7d97ad;
+    max-width: 100%;
+	text-transform: uppercase;
+}	
+
+div {
+	display: block;
+}
+
+.projects {
+	text-transform: uppercase;
+	color: #7d97ad;
+}
+
+.row {
+	align-content: center;	
+	display: flex;
+	padding: 1px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.container{
+  width : 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+    container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+  .row {
+    flex: 50%;
+    max-width: 50%;
+	flex-wrap: wrap;
+  }
+}</style></head>
+	
+<body>
+	<div class="container" bgcolor="#FAFAFA">
+  		<header>	
+			 <img src="logo/logo2.png" alt="logo">		
+				<div class="name">
+					<h1>Christina Szele</h1>
+					<h4> Udacity Student-Front End Development </h4>
+				</div>
+			<hr class="line">
+		</header>
+	
+	<p style="text-align:center;">	
+		<img class="hero" src="images\design-development-electronics.jpg" alt="hero" align="center" style="max-width:80%;height:auto">
+	</p>
+	</div>
+	
+	<div class="container" bgcolor="#FAFAFA">
+		<p>
+			</p><div id="leftfeature">
+			<h2>Featured Work</h2>
+			</div>
+		<p></p>
+	
+	<br style="line-height:4;"><br>
+			
+	<div class="row">
+		<div class="column">
+			<h3 class="projects">Memory<br> Game</h3>
+        		<p> <a href="https://"> <img border="4" style="border-color:#7d97ad" alt="Memory logo" src="images\memory art-card-game-cards.jpg" width="150" height="150"> </a>
+			</p>
+		</div>
+		<div class="column">
+			<h3 class="projects">Classic Arcade<br> Clone Game</h3>
+			<p> <a href="https://classroom.udacity.com/me"> <img border="4" style="border-color:#7d97ad" alt="Classic Arcade logo" src="images\arcade-bright-colorful.jpg" width="150" height="150"> </a>
+			</p>			
+		</div>
+		<div class="column">
+			<h3 class="projects">Feed Reader<br>Testing</h3>
+			<p> <a href="https://classroom.udacity.com"> <img border="4" style="border-color:#7d97ad" alt="Feed Reader logo" src="images\feed reader connection-data-design.jpg" width="150" height="150"> </a>
+			</p>
+		</div>
+        <div class="column">
+			<h3 class="projects">Restaurant<br> Review App</h3>
+			<p> <a href="https://classroom.udacity.com/me"> <img border="4" style="border-color:#7d97ad" alt="Restaurant Review logo" src="images\restaurant cheese-course-cuisine.jpg" width="150" height="150"> </a>
+			</p>
+		</div>
+	</div>
+</div>	
+
+</body></html>
