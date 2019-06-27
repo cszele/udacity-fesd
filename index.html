@@ -1,59 +1,85 @@
-<html><head><base href="<!doctype HTML>">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One">
-    <link rel="stylesheet" href="style.css">
-	</head>
-	
-<body>
-	<div class="container" bgcolor="#FAFAFA">
-  		<header>	
-			 <img src="logo/logo2.png" alt="logo">		
-				<div class="name">
-					<h1>Christina Szele</h1>
-					<h4> Udacity Student-Front End Development </h4>
-				</div>
-			<hr class="line">
-		</header>
-	
-	<p style="text-align:center;">	
-		<img class="hero" src="images\design-development-electronics.jpg" alt="hero" align="center" style="max-width:80%;height:auto">
-        </p>
-    </div>
-	
-	<div class="container" bgcolor="#FAFAFA">
-		<p>
-        </p><div id="leftfeature">
-			<h2>Featured Work</h2>
-			</div>
-		<p></p>
-	
-	<br style="line-height:4;"><br>
-			
-	<div class="row">
-		<div class="column">
-			<h3 class="projects">Memory<br> Game</h3>
-        		<p> <a href="https://"> <img border="4" style="border-color:#7d97ad" alt="Memory logo" src="images\memory art-card-game-cards.jpg" width="150" height="150"> </a>
-			</p>
-		</div>
-		<div class="column">
-			<h3 class="projects">Classic Arcade<br> Clone Game</h3>
-			<p> <a href="https://classroom.udacity.com/me"> <img border="4" style="border-color:#7d97ad" alt="Classic Arcade logo" src="images\arcade-bright-colorful.jpg" width="150" height="150"> </a>
-			</p>			
-		</div>
-		<div class="column">
-			<h3 class="projects">Feed Reader<br>Testing</h3>
-			<p> <a href="https://classroom.udacity.com"> <img border="4" style="border-color:#7d97ad" alt="Feed Reader logo" src="images\feed reader connection-data-design.jpg" width="150" height="150"> </a>
-			</p>
-		</div>
-        <div class="column">
-			<h3 class="projects">Restaurant<br> Review App</h3>
-			<p> <a href="https://classroom.udacity.com/me"> <img border="4" style="border-color:#7d97ad" alt="Restaurant Review logo" src="images\restaurant cheese-course-cuisine.jpg" width="150" height="150"> </a>
-			</p>
-		</div>
-	</div>
-</div>	
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
 
-</body></html>
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves">3</span> Moves
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+            <li class="card open show">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card open show">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/app2.js"></script>
+</body>
+</html>
